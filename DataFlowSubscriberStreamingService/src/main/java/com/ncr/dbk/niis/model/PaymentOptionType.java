@@ -1,0 +1,5 @@
+package com.ncr.dbk.niis.model;
+
+public enum PaymentOptionType {
+	DEFAULT, MULTIPLE_PAYMENT, INTEREST_ONLY, PRINCIPAL_ONLY, ESCROW_ONLY, FEES_ONLY, EXCESS_TO_INTEREST, EXCESS_TO_PRINCIPAL;
+}
